@@ -183,6 +183,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monitoring.cpp" />
+    <ClCompile Include="PatientDataHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monitoring.h" />
+    <ClInclude Include="PatientDataHandler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

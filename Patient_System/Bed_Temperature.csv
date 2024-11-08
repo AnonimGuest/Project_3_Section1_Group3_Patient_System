@@ -1,0 +1,221 @@
+Age Group,Disease,Normal Temperature,Minimum Temperature,Maximum Temperature
+0-5 years,Normal,36.9,36.5,37.5
+0-5 years,Fever,36.8,38,40
+0-5 years,Hypothermia,36.8,32,35
+0-5 years,Hyperthermia,37.1,40.1,42
+0-5 years,Post-Surgery Recovery,37.1,36.5,37.5
+0-5 years,Infection,36.8,38,40
+0-5 years,Sepsis,36.9,38.5,41
+0-5 years,Pneumonia,36.7,37.5,39.5
+0-5 years,COVID-19,36.8,37.5,39
+0-5 years,Heat Stroke,37,40,42
+0-5 years,Cold Exposure,37.1,32,35
+6-10 years,Normal,36.7,36.5,37.5
+6-10 years,Fever,37,38,40
+6-10 years,Hypothermia,36.5,32,35
+6-10 years,Hyperthermia,36.8,40.1,42
+6-10 years,Post-Surgery Recovery,37.3,36.5,37.5
+6-10 years,Infection,36.8,38,40
+6-10 years,Sepsis,37.1,38.5,41
+6-10 years,Pneumonia,36.7,37.5,39.5
+6-10 years,COVID-19,37,37.5,39
+6-10 years,Heat Stroke,36.8,40,42
+6-10 years,Cold Exposure,37.1,32,35
+11-15 years,Normal,36.6,36.5,37.5
+11-15 years,Fever,37.2,38,40
+11-15 years,Hypothermia,37.5,32,35
+11-15 years,Hyperthermia,37.2,40.1,42
+11-15 years,Post-Surgery Recovery,37.4,36.5,37.5
+11-15 years,Infection,36.5,38,40
+11-15 years,Sepsis,37,38.5,41
+11-15 years,Pneumonia,36.8,37.5,39.5
+11-15 years,COVID-19,37.4,37.5,39
+11-15 years,Heat Stroke,37.4,40,42
+11-15 years,Cold Exposure,37.2,32,35
+16-20 years,Normal,36.6,36.5,37.5
+16-20 years,Fever,36.7,38,40
+16-20 years,Hypothermia,37,32,35
+16-20 years,Hyperthermia,36.8,40.1,42
+16-20 years,Post-Surgery Recovery,36.7,36.5,37.5
+16-20 years,Infection,37.5,38,40
+16-20 years,Sepsis,37.2,38.5,41
+16-20 years,Pneumonia,37.5,37.5,39.5
+16-20 years,COVID-19,37.4,37.5,39
+16-20 years,Heat Stroke,36.7,40,42
+16-20 years,Cold Exposure,36.8,32,35
+21-25 years,Normal,36.8,36.5,37.5
+21-25 years,Fever,37.2,38,40
+21-25 years,Hypothermia,36.7,32,35
+21-25 years,Hyperthermia,37.1,40.1,42
+21-25 years,Post-Surgery Recovery,37.2,36.5,37.5
+21-25 years,Infection,36.9,38,40
+21-25 years,Sepsis,37.1,38.5,41
+21-25 years,Pneumonia,37,37.5,39.5
+21-25 years,COVID-19,37.5,37.5,39
+21-25 years,Heat Stroke,37.1,40,42
+21-25 years,Cold Exposure,37,32,35
+26-30 years,Normal,36.8,36.5,37.5
+26-30 years,Fever,36.8,38,40
+26-30 years,Hypothermia,36.5,32,35
+26-30 years,Hyperthermia,37.3,40.1,42
+26-30 years,Post-Surgery Recovery,36.8,36.5,37.5
+26-30 years,Infection,37.4,38,40
+26-30 years,Sepsis,36.5,38.5,41
+26-30 years,Pneumonia,36.9,37.5,39.5
+26-30 years,COVID-19,37.1,37.5,39
+26-30 years,Heat Stroke,37.2,40,42
+26-30 years,Cold Exposure,37.1,32,35
+31-35 years,Normal,36.8,36.5,37.5
+31-35 years,Fever,37,38,40
+31-35 years,Hypothermia,36.7,32,35
+31-35 years,Hyperthermia,37.4,40.1,42
+31-35 years,Post-Surgery Recovery,37.1,36.5,37.5
+31-35 years,Infection,36.8,38,40
+31-35 years,Sepsis,36.6,38.5,41
+31-35 years,Pneumonia,36.6,37.5,39.5
+31-35 years,COVID-19,36.6,37.5,39
+31-35 years,Heat Stroke,36.7,40,42
+31-35 years,Cold Exposure,36.8,32,35
+36-40 years,Normal,37,36.5,37.5
+36-40 years,Fever,37.4,38,40
+36-40 years,Hypothermia,36.5,32,35
+36-40 years,Hyperthermia,36.8,40.1,42
+36-40 years,Post-Surgery Recovery,37.3,36.5,37.5
+36-40 years,Infection,36.8,38,40
+36-40 years,Sepsis,37.2,38.5,41
+36-40 years,Pneumonia,36.5,37.5,39.5
+36-40 years,COVID-19,37.2,37.5,39
+36-40 years,Heat Stroke,36.9,40,42
+36-40 years,Cold Exposure,37.3,32,35
+41-45 years,Normal,36.7,36.5,37.5
+41-45 years,Fever,37,38,40
+41-45 years,Hypothermia,37.1,32,35
+41-45 years,Hyperthermia,37.3,40.1,42
+41-45 years,Post-Surgery Recovery,36.6,36.5,37.5
+41-45 years,Infection,37.3,38,40
+41-45 years,Sepsis,36.7,38.5,41
+41-45 years,Pneumonia,37.5,37.5,39.5
+41-45 years,COVID-19,37.2,37.5,39
+41-45 years,Heat Stroke,36.5,40,42
+41-45 years,Cold Exposure,36.9,32,35
+46-50 years,Normal,36.7,36.5,37.5
+46-50 years,Fever,37.2,38,40
+46-50 years,Hypothermia,37.4,32,35
+46-50 years,Hyperthermia,37.3,40.1,42
+46-50 years,Post-Surgery Recovery,37,36.5,37.5
+46-50 years,Infection,36.5,38,40
+46-50 years,Sepsis,37.1,38.5,41
+46-50 years,Pneumonia,37.2,37.5,39.5
+46-50 years,COVID-19,36.7,37.5,39
+46-50 years,Heat Stroke,37.3,40,42
+46-50 years,Cold Exposure,36.9,32,35
+51-55 years,Normal,37.1,36.5,37.5
+51-55 years,Fever,37,38,40
+51-55 years,Hypothermia,37.4,32,35
+51-55 years,Hyperthermia,37.3,40.1,42
+51-55 years,Post-Surgery Recovery,36.9,36.5,37.5
+51-55 years,Infection,37.4,38,40
+51-55 years,Sepsis,37.4,38.5,41
+51-55 years,Pneumonia,36.5,37.5,39.5
+51-55 years,COVID-19,36.6,37.5,39
+51-55 years,Heat Stroke,36.9,40,42
+51-55 years,Cold Exposure,36.7,32,35
+56-60 years,Normal,37.2,36.5,37.5
+56-60 years,Fever,36.7,38,40
+56-60 years,Hypothermia,37,32,35
+56-60 years,Hyperthermia,37.2,40.1,42
+56-60 years,Post-Surgery Recovery,37,36.5,37.5
+56-60 years,Infection,36.6,38,40
+56-60 years,Sepsis,37,38.5,41
+56-60 years,Pneumonia,36.6,37.5,39.5
+56-60 years,COVID-19,36.6,37.5,39
+56-60 years,Heat Stroke,36.6,40,42
+56-60 years,Cold Exposure,36.5,32,35
+61-65 years,Normal,37.3,36.5,37.5
+61-65 years,Fever,36.8,38,40
+61-65 years,Hypothermia,37,32,35
+61-65 years,Hyperthermia,37.4,40.1,42
+61-65 years,Post-Surgery Recovery,36.9,36.5,37.5
+61-65 years,Infection,37.4,38,40
+61-65 years,Sepsis,37.3,38.5,41
+61-65 years,Pneumonia,36.9,37.5,39.5
+61-65 years,COVID-19,37.2,37.5,39
+61-65 years,Heat Stroke,36.7,40,42
+61-65 years,Cold Exposure,36.9,32,35
+66-70 years,Normal,36.6,36.5,37.5
+66-70 years,Fever,37,38,40
+66-70 years,Hypothermia,37.4,32,35
+66-70 years,Hyperthermia,37,40.1,42
+66-70 years,Post-Surgery Recovery,36.8,36.5,37.5
+66-70 years,Infection,37.4,38,40
+66-70 years,Sepsis,36.6,38.5,41
+66-70 years,Pneumonia,37.1,37.5,39.5
+66-70 years,COVID-19,36.9,37.5,39
+66-70 years,Heat Stroke,36.5,40,42
+66-70 years,Cold Exposure,37.3,32,35
+71-75 years,Normal,37.4,36.5,37.5
+71-75 years,Fever,36.7,38,40
+71-75 years,Hypothermia,36.9,32,35
+71-75 years,Hyperthermia,37.2,40.1,42
+71-75 years,Post-Surgery Recovery,36.6,36.5,37.5
+71-75 years,Infection,37.4,38,40
+71-75 years,Sepsis,37.2,38.5,41
+71-75 years,Pneumonia,37.3,37.5,39.5
+71-75 years,COVID-19,37.5,37.5,39
+71-75 years,Heat Stroke,36.9,40,42
+71-75 years,Cold Exposure,36.8,32,35
+76-80 years,Normal,37.2,36.5,37.5
+76-80 years,Fever,36.6,38,40
+76-80 years,Hypothermia,36.6,32,35
+76-80 years,Hyperthermia,37,40.1,42
+76-80 years,Post-Surgery Recovery,37.3,36.5,37.5
+76-80 years,Infection,37,38,40
+76-80 years,Sepsis,37.3,38.5,41
+76-80 years,Pneumonia,36.8,37.5,39.5
+76-80 years,COVID-19,37.3,37.5,39
+76-80 years,Heat Stroke,36.5,40,42
+76-80 years,Cold Exposure,37.3,32,35
+81-85 years,Normal,36.6,36.5,37.5
+81-85 years,Fever,37.2,38,40
+81-85 years,Hypothermia,37.2,32,35
+81-85 years,Hyperthermia,36.9,40.1,42
+81-85 years,Post-Surgery Recovery,37.1,36.5,37.5
+81-85 years,Infection,37.3,38,40
+81-85 years,Sepsis,36.5,38.5,41
+81-85 years,Pneumonia,36.9,37.5,39.5
+81-85 years,COVID-19,37.4,37.5,39
+81-85 years,Heat Stroke,36.9,40,42
+81-85 years,Cold Exposure,37,32,35
+86-90 years,Normal,36.8,36.5,37.5
+86-90 years,Fever,36.7,38,40
+86-90 years,Hypothermia,37.3,32,35
+86-90 years,Hyperthermia,36.7,40.1,42
+86-90 years,Post-Surgery Recovery,37.3,36.5,37.5
+86-90 years,Infection,36.8,38,40
+86-90 years,Sepsis,36.6,38.5,41
+86-90 years,Pneumonia,37.5,37.5,39.5
+86-90 years,COVID-19,36.7,37.5,39
+86-90 years,Heat Stroke,37.1,40,42
+86-90 years,Cold Exposure,37.4,32,35
+91-95 years,Normal,37.3,36.5,37.5
+91-95 years,Fever,37.1,38,40
+91-95 years,Hypothermia,36.7,32,35
+91-95 years,Hyperthermia,37.3,40.1,42
+91-95 years,Post-Surgery Recovery,37.3,36.5,37.5
+91-95 years,Infection,37.5,38,40
+91-95 years,Sepsis,37,38.5,41
+91-95 years,Pneumonia,36.9,37.5,39.5
+91-95 years,COVID-19,36.6,37.5,39
+91-95 years,Heat Stroke,36.6,40,42
+91-95 years,Cold Exposure,37,32,35
+96-100 years,Normal,36.7,36.5,37.5
+96-100 years,Fever,36.7,38,40
+96-100 years,Hypothermia,36.9,32,35
+96-100 years,Hyperthermia,36.6,40.1,42
+96-100 years,Post-Surgery Recovery,36.7,36.5,37.5
+96-100 years,Infection,36.8,38,40
+96-100 years,Sepsis,37.1,38.5,41
+96-100 years,Pneumonia,37.2,37.5,39.5
+96-100 years,COVID-19,37.1,37.5,39
+96-100 years,Heat Stroke,36.7,40,42
+96-100 years,Cold Exposure,37.2,32,35
