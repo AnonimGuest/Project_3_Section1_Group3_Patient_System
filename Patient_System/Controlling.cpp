@@ -7,7 +7,6 @@
 using namespace std;
 
 BedPositioningController::BedPositioningController() {
-    // Constructor can initialize additional settings if needed
 }
 
 void BedPositioningController::changeBedPosition(BedPosition position) {
