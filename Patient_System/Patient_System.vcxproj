@@ -182,13 +182,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Controlling.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monitoring.cpp" />
-    <ClCompile Include="PatientDataHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Controlling.h" />
     <ClInclude Include="Monitoring.h" />
-    <ClInclude Include="PatientDataHandler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

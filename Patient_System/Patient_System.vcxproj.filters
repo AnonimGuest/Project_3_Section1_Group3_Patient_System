@@ -21,7 +21,7 @@
     <ClCompile Include="Monitoring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PatientDataHandler.cpp">
+    <ClCompile Include="Controlling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="Monitoring.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PatientDataHandler.h">
+    <ClInclude Include="Controlling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

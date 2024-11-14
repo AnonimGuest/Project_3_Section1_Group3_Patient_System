@@ -1,19 +1,19 @@
 #pragma once
 #include <string>
 #include <vector>
-#include "PatientDataHandler.h"  // Include for shared patient data management
 
 using namespace std;
 
-struct TemperatureThresholdData {
-    string ageGroup;
-    string disease;
-    float normalTemperature;
-    float minTemperature;
-    float maxTemperature;
+struct PatientData {
+    int id;
+    int roomNumber;
+    int age;
+    string gender;
+    float weight;
+    float currentPressure;
 };
 
-struct BodyWeightThresholdData {
+struct ThresholdData {
     int age;
     string gender;
     float weight;
@@ -21,28 +21,16 @@ struct BodyWeightThresholdData {
     float thresholdPressure;
 };
 
-class BedTemperatureMonitor {
-private:
-    vector<TemperatureThresholdData> thresholds;
-    vector<PatientData> patients;
-
-public:
-    BedTemperatureMonitor();
-    void loadThresholdData(const string& filePath);
-    void monitorPatientData();
-    void sendAlert(const PatientData& patient, const string& alertType);
-    void run();  // Run method to handle device-specific logic
-};
-
 class BodyWeightPressureMonitor {
 private:
-    vector<BodyWeightThresholdData> thresholds;
+    vector<ThresholdData> thresholds;
     vector<PatientData> patients;
 
 public:
     BodyWeightPressureMonitor();
+
     void loadThresholdData(const string& filePath);
-    void monitorPatientData();
+    void loadPatientData(const string& filePath);
+    void monitorRandomPatientData();
     void sendAlert(const PatientData& patient);
-    void run();  // Run method to handle device-specific logic
 };

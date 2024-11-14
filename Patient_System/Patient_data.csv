@@ -1,0 +1,51 @@
+id,roomNumber,age,gender,disease,weight ,currentPressure ,temperature (C),respiratoryRate ,oxygenSaturation ,glucoseLevel 
+1,115,10,female,hypothermia,30,1500,39.5,20,97,106
+2,432,24,male,infection,59,2242,39.1,16,99,104
+3,406,85,female,cold exposure,85,3230,38.7,14,96,137
+4,230,68,male,hypothermia,110,5000,35.6,14,91,82
+5,300,58,female,heart stroke,85,3800,35.5,16,95,78
+6,102,8,female,pneumonia,26,988,36.1,20,99,86
+7,184,61,male,Normal,103,3914,39.9,14,91,109
+8,107,61,male,pneumonia,103,3014,36.8,14,99,99
+9,483,32,female,Normal,73,2774,36,16,98,120
+10,286,32,male,cold exposure,74,3500,37.8,16,99,99
+11,338,2,female,hypothermia,12,456,37.8,20,92,83
+12,154,1,male,post-surgery recovery,9,342,35.4,20,96,90
+13,498,3,male,pneumonia,16,908,38.5,20,90,127
+14,199,38,female,post-surgery recovery,79,4500,37,16,96,131
+15,156,6,male,sepsis,23,874,36.4,20,91,110
+16,317,5,female,cold exposure,20,760,39.5,20,92,93
+17,429,82,male,heart stroke,124,5789,36.7,14,95,108
+18,116,78,female,hypothermia,85,3710,39.9,14,95,76
+19,201,34,female,pneumonia,75,3689,38.4,16,90,71
+20,455,32,male,fever,73,3619,36,16,99,96
+21,229,84,female,sepsis,85,4097,35.6,14,98,121
+22,263,11,female,heart stroke,32,1569,36.9,20,90,94
+23,184,54,male,COVID-19,96,3910,36.8,16,90,95
+24,149,5,male,infection,21,800,39.9,20,100,118
+25,277,16,male,pneumonia,43,1634,39.1,20,94,75
+26,196,12,female,infection,34,1309,38.8,20,91,112
+27,472,72,male,cold exposure,144,4890,39.4,14,93,80
+28,216,23,male,infection,57,4710,35.8,16,93,122
+29,463,69,female,heart stroke,85,3910,35.3,14,99,101
+30,378,66,male,post-surgery recovery,108,4619,39.5,14,91,138
+31,364,55,male,fever,97,3980,37,16,92,80
+32,169,77,female,pneumonia,85,4000,38.6,14,90,88
+33,418,60,male,heart stroke,102,4320,38.9,16,93,81
+34,150,76,female,COVID-19,85,3230,38.1,14,96,99
+35,378,88,female,cold exposure,85,3230,37.8,14,97,105
+36,460,50,female,Normal,85,5310,35.9,16,97,86
+37,418,95,female,cold exposure,85,3230,36.3,14,94,134
+38,352,30,male,infection,71,2901,39.8,16,94,131
+39,479,100,male,cold exposure,142,7000,35.4,14,93,83
+40,262,46,male,hypothermia,88,3790,35.1,16,91,119
+41,113,76,male,Normal,118,4485,37.6,14,99,94
+42,457,58,male,sepsis,100,4290,36.2,16,93,80
+43,478,77,female,Normal,85,4522,39.4,14,99,123
+44,277,22,female,post-surgery recovery,54,2412,37,16,90,92
+45,267,30,female,hypothermia,70,3450,39.8,16,97,83
+46,149,48,female,Normal,81,4098,39.7,16,99,119
+47,308,15,female,hypothermia,40,1670,37.8,20,93,110
+48,400,40,male,Normal,82,3680,37.3,16,90,125
+49,406,58,male,sepsis,100,4000,38.9,16,94,119
+50,109,72,male,post-surgery recovery,114,5300,39.3,14,98,106
