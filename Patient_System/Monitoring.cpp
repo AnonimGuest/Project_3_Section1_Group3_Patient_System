@@ -390,7 +390,7 @@ void OxygenSaturationMonitoringDevice::monitorPatientData() {
         sendAlert(randomPatient.id, randomPatient.roomNumber, randomPatient.oxygenSaturation, "Above");
     }
     else {
-        // If the temperature is within the safe range, but not exactly normal
+        
         cout << "Patient ID " << randomPatient.id << " in Room " << randomPatient.roomNumber
             << " has a oxygen Saturation within acceptable limits" << endl;
     }
@@ -489,13 +489,13 @@ void GlucoseLevelMonitor::monitorPatientData() {
         sendAlert(randomPatient.id, randomPatient.roomNumber, randomPatient.glucoseLevel, "Above");
     }
     else {
-        // If the temperature is within the safe range, but not exactly normal
+        
         cout << "Patient ID " << randomPatient.id << " in Room " << randomPatient.roomNumber
             << " has a oxygen Saturation within acceptable limits" << endl;
     }
 }
 
-// Send alert if oxygen saturation is outside the threshold range
+// Send alert if glucose level is outside the threshold range
 void GlucoseLevelMonitor::sendAlert(int patientId, int roomNumber, int glucoseLevel, const string& message) {
     cout << "ALERT: Patient ID " << patientId << " has " << message << " threshold glucose level!\n"
         << "Glucose Level: " << glucoseLevel << "% (Threshold range: "
@@ -509,10 +509,10 @@ void GlucoseLevelMonitor::sendAlert(int patientId, int roomNumber, int glucoseLe
     cin >> choice;
 
     if (choice == 1) {
-        glucoseController.adjustGlucoseFlow(true);  // Start the oxygen flow
+        glucoseController.adjustGlucoseFlow(true);  
     }
     else if (choice == 2) {
-        glucoseController.adjustGlucoseFlow(false); // Stop the oxygen flow
+        glucoseController.adjustGlucoseFlow(false); 
     }
     else {
         cout << "No changes made to glucose flow." << endl;
