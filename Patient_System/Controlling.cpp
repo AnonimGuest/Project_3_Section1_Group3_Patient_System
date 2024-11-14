@@ -4,12 +4,14 @@
 #include <ctime>
 #include <iostream>
 
+using namespace std;
+
 BedPositioningController::BedPositioningController() {
     // Constructor can initialize additional settings if needed
 }
 
 void BedPositioningController::changeBedPosition(BedPosition position) {
-    std::cout << "Changing bed position to " << getPositionName(position) << "..." << std::endl;
+    cout << "Changing bed position to " << getPositionName(position) << "..." << endl;
 
     // Log the change after adjusting the bed position
     logPositionChange(position);
@@ -17,17 +19,17 @@ void BedPositioningController::changeBedPosition(BedPosition position) {
 
 void BedPositioningController::logPositionChange(BedPosition position) {
     // Open the log file in append mode
-    std::ofstream logFile(logFilePath, std::ios_base::app);
+    ofstream logFile(logFilePath, ios_base::app);
 
     if (!logFile) {
-        std::cerr << "Error opening log file: " << logFilePath << std::endl;
+        cerr << "Error opening log file: " << logFilePath << endl;
         return;
     }
 
     // Get current time
-    std::time_t currentTime = std::time(nullptr);
-    char* timeStr = std::ctime(&currentTime);
-    timeStr[std::strlen(timeStr) - 1] = '\0';  // Remove newline character
+    time_t currentTime = time(nullptr);
+    char* timeStr = ctime(&currentTime);
+    timeStr[strlen(timeStr) - 1] = '\0';  // Remove newline character
 
     // Log the position change with a timestamp
     logFile << "Timestamp: " << timeStr
@@ -36,6 +38,78 @@ void BedPositioningController::logPositionChange(BedPosition position) {
     logFile.close();
 }
 
-std::string BedPositioningController::getPositionName(BedPosition position) {
+string BedPositioningController::getPositionName(BedPosition position) {
     return (position == Supine) ? "Supine" : "Fowler";
+}
+void BedTemperatureController::adjustTemperature(TemperatureAdjustment adjustment) {
+    if (adjustment == TemperatureAdjustment::Increase) {
+        cout << "Increasing bed temperature for patient comfort." << endl;
+    }
+    else {
+        cout << "Decreasing bed temperature to prevent overheating." << endl;
+    }
+    logTemperatureAdjustment(adjustment);
+}
+
+void BedTemperatureController::logTemperatureAdjustment(TemperatureAdjustment adjustment) {
+    ofstream logFile("BedTemperatureAdjustments.log", ios::app);
+    if (logFile.is_open()) {
+        time_t now = time(nullptr);
+        logFile << "Time: " << std::ctime(&now)
+            << "Temperature adjustment: "
+            << (adjustment == TemperatureAdjustment::Increase ? "Increased" : "Decreased")
+            << "\n" << endl;
+        logFile.close();
+    }
+    else {
+        cerr << "Error: Unable to open log file for bed temperature adjustments." << endl;
+    }
+}
+
+void OxygenSaturationController::adjustOxygenFlow(bool startFlow) {
+    if (startFlow) {
+        cout << "Starting oxygen flow to maintain patient saturation." << endl;
+    }
+    else {
+        cout << "Stopping oxygen flow to prevent over-saturation." << endl;
+    }
+    logOxygenFlowChange(startFlow);
+}
+
+void OxygenSaturationController::logOxygenFlowChange(bool startFlow) {
+    ofstream logFile("OxygenSaturationAdjustments.log", ios::app);
+    if (logFile.is_open()) {
+        time_t now = time(nullptr);
+        logFile << "Time: " << ctime(&now)
+            << "Oxygen flow " << (startFlow ? "Started" : "Stopped")
+            << "\n" << endl;
+        logFile.close();
+    }
+    else {
+        cerr << "Error: Unable to open log file for oxygen saturation adjustments." << endl;
+    }
+}
+
+void GlucoseLevelController::adjustGlucoseFlow(bool startFlow) {
+    if (startFlow) {
+        cout << "Starting Glucose flow." << endl;
+    }
+    else {
+        cout << "Stopping Glucose flow." << endl;
+    }
+    logGlucoseFlowChange(startFlow);
+}
+
+void GlucoseLevelController::logGlucoseFlowChange(bool startFlow) {
+    ofstream logFile("GlucoseLevelAdjustments.log", ios::app);
+    if (logFile.is_open()) {
+        time_t now = time(nullptr);
+        logFile << "Time: " << ctime(&now)
+            << "Glucose Flow " << (startFlow ? "Started" : "Stopped")
+            << "\n" << endl;
+        logFile.close();
+    }
+    else {
+        cerr << "Error: Unable to open log file for glucose level adjustments." << endl;
+    }
 }

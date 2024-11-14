@@ -18,3 +18,26 @@ public:
 private:
     string logFilePath = "BedPositionLog.txt";
 };
+
+enum class TemperatureAdjustment {
+    Increase,
+    Decrease
+};
+
+class BedTemperatureController {
+public:
+    void adjustTemperature(TemperatureAdjustment adjustment);
+    void logTemperatureAdjustment(TemperatureAdjustment adjustment);
+};
+
+class OxygenSaturationController {
+public:
+    void adjustOxygenFlow(bool startFlow);  // true for start, false for stop
+    void logOxygenFlowChange(bool startFlow);
+};
+
+class GlucoseLevelController {
+public:
+    void adjustGlucoseFlow(bool startFlow);  // true for start, false for stop
+    void logGlucoseFlowChange(bool startFlow);
+};
