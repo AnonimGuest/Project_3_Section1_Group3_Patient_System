@@ -87,9 +87,13 @@ void BodyWeightPressureMonitor::loadPatientData(const string& filePath) {
         // Add patient data to the vector
         patients.push_back(patient);
     }
-
+    dataLoaded = true;
     cout << "Patient data loaded successfully." << endl;
     file.close();
+}
+
+bool BodyWeightPressureMonitor::isDataLoaded() const {
+    return dataLoaded;
 }
 
 
@@ -100,8 +104,8 @@ void BodyWeightPressureMonitor::monitorRandomPatientData() {
     }
 
     // Seed for random number generation
-    srand(static_cast<unsigned int>(time(0)));
-
+   //srand(static_cast<unsigned int>(time(0)));
+    srand(1);
     // Select a random patient
     int randomIndex = rand() % patients.size();
     const PatientData& randomPatient = patients[randomIndex];
@@ -237,9 +241,14 @@ void BedTemperatureMonitor::loadPatientData(const string& filePath) {
         // Add patient data to the vector
         patients.push_back(patient);
     }
-
+    dataLoaded = true;
     cout << "Patient data loaded successfully." << endl;
     file.close();
+
+}
+
+bool BedTemperatureMonitor::isDataLoaded() const {
+    return dataLoaded;
 }
 
 
@@ -322,8 +331,8 @@ void BedTemperatureMonitor::sendAlert(const PatientData& patient, const Threshol
     }
 }
 
-OxygenSaturationMonitoringDevice::OxygenSaturationMonitoringDevice() {
-}
+OxygenSaturationMonitoringDevice::OxygenSaturationMonitoringDevice() {}
+
 void OxygenSaturationMonitoringDevice::loadPatientData(const string& filePath) {
     ifstream file("Patient_data.csv");
     if (!file) {
@@ -363,9 +372,13 @@ void OxygenSaturationMonitoringDevice::loadPatientData(const string& filePath) {
         // Add patient data to the vector
         patients.push_back(patient);
     }
-
+    dataLoaded = true;
     cout << "Patient data loaded successfully." << endl;
     file.close();
+}
+
+bool OxygenSaturationMonitoringDevice::isDataLoaded() const {
+    return dataLoaded;
 }
 
 void OxygenSaturationMonitoringDevice::monitorPatientData() {
@@ -462,9 +475,13 @@ void GlucoseLevelMonitor::loadPatientData(const string& filePath) {
         // Add patient data to the vector
         patients.push_back(patient);
     }
-
+    dataLoaded = true;
     cout << "Patient data loaded successfully." << endl;
     file.close();
+}
+
+bool GlucoseLevelMonitor::isDataLoaded() const {
+    return dataLoaded;
 }
 
 void GlucoseLevelMonitor::monitorPatientData() {

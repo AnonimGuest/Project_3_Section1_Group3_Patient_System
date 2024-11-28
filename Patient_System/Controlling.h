@@ -28,6 +28,7 @@ class BedTemperatureController {
 public:
     void adjustTemperature(TemperatureAdjustment adjustment);
     void logTemperatureAdjustment(TemperatureAdjustment adjustment);
+    string readLatestLogEntry(const std::string& logFileName);
 };
 
 class OxygenSaturationController {

@@ -40,7 +40,7 @@ id,roomNumber,age,gender,disease,weight ,currentPressure ,temperature (C),respir
 39,479,100,male,Cold Exposure,142,7000,40,14,93,83
 40,262,46,male,Hypothermia,88,3790,35.1,16,91,119
 41,113,76,male,Normal,118,4485,37.6,14,99,94
-42,457,58,male,Sepsis,100,4290,36.2,16,93,80
+42,457,58,male,Sepsis,100,5100,36.2,16,93,80
 43,478,77,female,Normal,85,4522,39.4,14,99,123
 44,277,22,female,Post-Surgery Recovery,54,2412,37,16,90,92
 45,267,30,female,Hypothermia,70,3450,39.8,16,97,83

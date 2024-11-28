@@ -6,8 +6,7 @@
 
 using namespace std;
 
-BedPositioningController::BedPositioningController() {
-}
+BedPositioningController::BedPositioningController() {}
 
 void BedPositioningController::changeBedPosition(BedPosition position) {
     cout << "Changing bed position to " << getPositionName(position) << "..." << endl;
@@ -40,6 +39,7 @@ void BedPositioningController::logPositionChange(BedPosition position) {
 string BedPositioningController::getPositionName(BedPosition position) {
     return (position == Supine) ? "Supine" : "Fowler";
 }
+
 void BedTemperatureController::adjustTemperature(TemperatureAdjustment adjustment) {
     if (adjustment == TemperatureAdjustment::Increase) {
         cout << "Increasing bed temperature for patient comfort." << endl;
@@ -63,6 +63,21 @@ void BedTemperatureController::logTemperatureAdjustment(TemperatureAdjustment ad
     else {
         cerr << "Error: Unable to open log file for bed temperature adjustments." << endl;
     }
+}
+
+string BedTemperatureController:: readLatestLogEntry(const std::string& logFileName) {
+    ifstream logFile("BedTemperatureAdjustments.log", std::ios::in);
+    string lastLine;
+    string line;
+    if (logFile.is_open()) {
+        while (getline(logFile, line)) {
+            if (!line.empty()) {
+                lastLine = line;
+            }
+        }
+        logFile.close();
+    }
+    return lastLine;
 }
 
 void OxygenSaturationController::adjustOxygenFlow(bool startFlow) {

@@ -1,0 +1,6 @@
+﻿  Controlling.cpp
+  main.cpp
+  Monitoring.cpp
+  Generating Code...
+C:\Users\navje\source\repos\Project_3_Section1_Group3_Patient_System\Patient_System\Monitoring.cpp(12,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Patient_System.vcxproj -> C:\Users\navje\source\repos\Project_3_Section1_Group3_Patient_System\x64\Debug\Patient_System.exe

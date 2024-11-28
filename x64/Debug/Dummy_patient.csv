@@ -1,0 +1,2 @@
+id,roomNumber,age,gender,disease,weight,currentPressure,temperature,respiratoryRate,oxygenSaturation,glucoseLevel
+1,101,45,M,Fever,70,120,37.5,18,98,90
